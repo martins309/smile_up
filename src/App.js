@@ -1,12 +1,12 @@
-
 import './App.css';
 import LoginVolunteers from './components__andrew/LoginVolunteers';
-import AdminLogin from './components__andrew/AdminLogin';
+import AdminLogin from "./J Component/AdminLogin";
 
 function App() {
   return (
     <div className="App">
-      <AdminLogin />
+      <LoginVolunteers />
+      <AdminLogin/>
     </div>
   );
 }
